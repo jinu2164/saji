@@ -1,0 +1,103 @@
+<head>
+<title>Flipkart</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="icon" href="https://play-lh.googleusercontent.com/q8hxnbpJCYfHipSOG_5tZe5jK_89T6QIsqrEklvGpMFKH8b98pDHJf2tPcn2bxEN96ON">
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    #topbar{
+
+        display: flex;
+        background-color:#2874f0;
+        align-items: center;
+        justify-content: center;
+        padding: 10;
+    }
+    #paragraph{
+        font-size: 11;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+    #plus{
+        color: #ffe500;
+    }
+    p:hover{
+        text-decoration: underline;
+        color: whitesmoke;
+        cursor: pointer;
+    }
+    #searchbox{
+        margin-left: 10;
+        background-color: white;
+        height: 35;
+        width: 420;
+    }
+    #login{
+        margin-left: 20;
+        background-color: white;
+        height: 30;
+        width: 110;
+    }
+    #tag1{
+        margin-left: 40;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+        
+    }
+    #tag2{
+        margin-left: 40;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+    #tag3{
+        margin-left: 40;
+    }
+    #tag4{
+        margin-left: 8;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+    
+</style>
+
+
+
+</head>
+<body>
+    <div id="topbar">
+    <div> <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+        width="75" height="20">
+        <p id="paragraph" style=" color: whitesmoke; position: relative; font-style: italic;">Explore
+            <span id="plus">Plus</span> <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/plus_aef861.png"
+            width="10" height="10">
+
+        </p>
+    </div>
+    <div id="searchbox">
+        <input size="40" style="margin-top: 10; margin-left: 10; border: 0; outline: 0;" type="text" placeholder="Search for products, brands and more">
+        <i class="fa fa-search" style="font-size:19px;color:#2874f0; margin-left: 65;"></i>
+    </div>
+    <div id="login">
+        <p style="text-align: center; margin-top: 6; color: #2874f0; font-weight: 550; font-family: 'Roboto', sans-serif; text-decoration: none;">Login</p>
+    </div>
+    <div id="tag1">
+        <a style="text-decoration: none; color: white;" href="https://seller.flipkart.com/sell-online/?utm_source=fkwebsite&utm_medium=websitedirect">Become a Seller</a>        
+    </div>
+    <div id="tag2">
+        <a style="text-decoration: none; color: white;" href="#">More</a>
+    </div>
+    <div id="tag3">
+        <i class="fa fa-shopping-cart" style="font-size:20px;color:white"></i>
+    </div>
+    <div id="tag4">
+        <a style="text-decoration: none; color: white;" href="https://www.flipkart.com/viewcart?exploreMode=true&preference=FLIPKART">Cart</a>
+    </div>
+    </div>
+
+
+
+
+</body>
